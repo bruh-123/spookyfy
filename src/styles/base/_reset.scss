@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-3;
+  font-family: $font-family-1;
+  font-size: $font-size-small;
+  color: $color-4;
+}
+input,
+button {
+  cursor: pointer;
+  font-family: $font-family-1;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+li {
+  list-style: none;
+}

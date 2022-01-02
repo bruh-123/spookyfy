@@ -1,0 +1,29 @@
+@use "./variables" as *;
+
+$colors: (
+  color-1: (
+    base: $color-1,
+    ligth: lighten($color-1, $lighten),
+    dark: darken($color-1, $darken),
+  ),
+  color-2: (
+    base: $color-2,
+    ligth: lighten($color-2, $lighten),
+    dark: darken($color-2, $darken),
+  ),
+  color-3: (
+    base: $color-3,
+    ligth: lighten($color-3, $lighten),
+    dark: darken($color-3, $darken),
+  ),
+  color-4: (
+    base: $color-4,
+    ligth: lighten($color-4, $lighten),
+    dark: darken($color-4, $darken),
+  ),
+  color-5: (
+    base: $color-5,
+    ligth: lighten($color-5, $lighten),
+    dark: darken($color-5, $darken),
+  ),
+);
