@@ -1,51 +1,51 @@
 @use "styles.scss" as *;
+.logo {
+  height: 40px;
+  max-width: 131px;
+  width: 100%;
+}
 .side-bar {
   width: 15.5rem;
   height: 100vh;
   position: fixed;
-  top: 0;
-  left: 0;
+  //   top: 0;
+  //   left: 0;
   padding: 0.5rem 1rem;
-//   background-color: red;
+  //   background-color: red;
 }
 
 .side-bar-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   opacity: 0.8;
-}
-
-.side-bar-list .list-label {
-  font-size: 90%;
-  font-weight: 500;
-}
-
-.side-bar-list .list-item-wrapper {
-  font-size: $font-size-small;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  align-content: center;
-}
-
-.side-bar-list .list-item-wrapper .uil {
-  font-size: $font-size-large;
-  padding-right: 0.5rem;
+  .list-label {
+    font-size: 90%;
+    font-weight: 500;
+  }
+  .list-item-wrapper {
+   //  background-color: red;
+    //   font-size: $font-size-small;
+    //  font-weight: 500;
+    //  display: flex;
+    //  align-items: center;
+    //  align-content: center;
+    .uil {
+      font-size: $font-size-large;
+      padding-right: 0.5rem;
+    }
+  }
 }
 
 .side-bar-separator {
   margin: 1rem 0;
 }
-
 .side-bar-separator.line-separator {
   border-bottom: solid 1px $color-2;
 }
 
-.side-bar-list.list-three .list-item-wrapper {
-  padding: 0.25rem 0;
-}
 
-.side-bar-list li {
-  cursor: pointer;
-}
+// .side-bar-list.list-three .list-item-wrapper {
+//   padding: 0.25rem 0;
+// }
+
+// .side-bar-list li {
+//   cursor: pointer;
+// }
