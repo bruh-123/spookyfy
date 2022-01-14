@@ -24,8 +24,8 @@
    //  background-color: red;
     //   font-size: $font-size-small;
     //  font-weight: 500;
-    //  display: flex;
-    //  align-items: center;
+     display: flex;
+     align-items: center;
     //  align-content: center;
     .uil {
       font-size: $font-size-large;
@@ -42,9 +42,9 @@
 }
 
 
-// .side-bar-list.list-three .list-item-wrapper {
-//   padding: 0.25rem 0;
-// }
+.side-bar-list.list-three .list-item-wrapper {
+  padding: 0.25rem 0;
+}
 
 // .side-bar-list li {
 //   cursor: pointer;
