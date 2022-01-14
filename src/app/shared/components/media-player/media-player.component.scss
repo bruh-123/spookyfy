@@ -5,9 +5,9 @@
   bottom: 0;
   width: 100%;
   //     z-index: 2;
-  //   height: 85px;
+  height: 85px;
   border-top: solid 1px $color-2;
-  //   box-shadow: 0px -15px 15px 7px #0000002e;
+  // box-shadow: 0px -15px 15px 7px #0000002e;
   .media-player-wrapper {
     position: relative;
     display: flex;
@@ -24,7 +24,7 @@
     .player-controls {
       width: 50%;
       padding: 0 0.5rem;
-      //   position: relative;
+      position: relative;
     }
     .artist {
       .artist-inside {
@@ -63,61 +63,64 @@
 }
 
 .media-player-wrapper .player-controls-inside .buttons-media {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    gap: .5rem
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 0.5rem;
 }
 
 .media-player-wrapper .player-controls-inside .buttons-media .btn {
-    background-color: transparent;
-    border: 0;
-    color: $color-4;
-    opacity: .7;
-    font-size: 1.65rem
+  background-color: transparent;
+  border: 0;
+  color: $color-4;
+  opacity: 0.7;
+  font-size: 1.65rem;
 }
 
 .media-player-wrapper .player-controls-inside .buttons-media .play {
-    font-size: 2.35rem;
+  font-size: 2.35rem;
 }
 
-.media-player-wrapper .player-controls-inside .media-linetime {
-    display: flex;
-    justify-content: space-between;
-    font-size: 70%;
-    padding: 0;
+.media-player-wrapper .player-controls-inside .media-timeline {
+  display: flex;
+  justify-content: space-between;
+  font-size: 70%;
+  padding: 0;
 }
 
-.media-player-wrapper .player-controls-inside .media-linetime .time {
-    padding: .5rem 0;
+.media-player-wrapper .player-controls-inside .media-timeline .time {
+  padding: 0.5rem 0;
 }
 
-.media-player-wrapper .player-controls-inside .media-linetime .time-progress {
-    background-color: $color-2;
-    height: 2px;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    cursor: pointer;
+.media-player-wrapper .player-controls-inside .media-timeline .time-progress {
+  background-color: $color-2;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
 }
 
-.media-player-wrapper .player-controls-inside .media-linetime .time-progress-live {
-    background-color:$color-4;
-    width: 0%;
-    height: 2px;
-    transition: all ease $animation-1;
-    position: absolute;
+.media-player-wrapper
+  .player-controls-inside
+  .media-timeline
+  .time-progress-live {
+  background-color: $color-4;
+  width: 0%;
+  height: 2px;
+  transition: all ease $animation-1;
+  position: absolute;
 }
 
 .media-player-wrapper .player-audio-inside {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .media-player-wrapper .player-audio-inside .btn-media {
-    background-color: transparent;
-    border: 0;
-    color: $color-4;
-    font-size: $font-size-medium;
+  background-color: transparent;
+  border: 0;
+  color: $color-4;
+  font-size: $font-size-medium;
 }

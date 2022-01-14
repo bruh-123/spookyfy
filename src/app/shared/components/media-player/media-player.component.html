@@ -47,11 +47,11 @@
       </button>
     </div>
     <div class="media-timeline">
-      <div class="time"></div>
-      <span class="time-progress">
-        <span class="time-progress-live"></span>
+      <div class="time">00</div>
+      <span #progressBar class="time-progress">
+        <span class="time-progress-live" [style.width]="10 + '%'"></span>
       </span>
-      <div class="time"></div>
+      <div class="time">{{99}}</div>
     </div>
   </div>
 </ng-template>
